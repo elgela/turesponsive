@@ -107,46 +107,4 @@
     
 })(jQuery);
 
-self.addEventListener("install", event => {
-  console.log("Service Worker instalado");
-  event.waitUntil(
-    caches.open("mi-cache").then(cache => {
-      return cache.addAll(["/", "/index.html", "css/styles.css", "js/main.js"]);
-    })
-  );
-});
 
-self.addEventListener("fetch", event => {
-  event.respondWith(
-    caches.match(event.request).then(response => {
-      return response || fetch(event.request);
-    })
-  );
-});
-
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/sw.js")
-    .then(() => console.log("Service Worker registrado"));
-}
-
-let deferredPrompt;
-
-window.addEventListener("beforeinstallprompt", (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
-
-  const btn = document.getElementById("instalarBtn");
-  btn.style.display = "block";
-
-  btn.addEventListener("click", () => {
-    deferredPrompt.prompt();
-    deferredPrompt.userChoice.then(choice => {
-      if (choice.outcome === "accepted") {
-        console.log("Usuario instaló la app");
-      } else {
-        console.log("Usuario rechazó la instalación");
-      }
-      deferredPrompt = null;
-    });
-  });
-});
