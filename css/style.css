@@ -927,6 +927,11 @@ a:focus {
     text-align: center;
 }
 
+.banner .container-img img {
+    position: relative;
+    width: 100%;
+}
+
 .banner .section-header {
     margin-bottom: 20px;
 }
