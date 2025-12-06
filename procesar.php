@@ -1,19 +1,35 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nombre = htmlspecialchars($_POST['nombre']);
-    $email = htmlspecialchars($_POST['email']);
-    $asunto = htmlspecialchars($_POST['asunto']);
-    $mensaje = htmlspecialchars($_POST['mensaje']);
+    // Sanitizar entradas
+    $nombre  = htmlspecialchars(trim($_POST['nombre']));
+    $email   = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+    $asunto  = htmlspecialchars(trim($_POST['asunto']));
+    $mensaje = htmlspecialchars(trim($_POST['mensaje']));
 
-    $to = "contacto@turesponsive.com.ar"; // correo de la empresa
+    // Dirección de destino
+    $to = "contacto@turesponsive.com.ar";
+
+    // Asunto del correo
     $subject = "Formulario de contacto: $asunto";
-    $body = "Nombre: $nombre\nEmail: $email\n\nMensaje:\n$mensaje";
-    $headers = "From: $email";
 
+    // Cuerpo del mensaje
+    $body = "Nombre: $nombre\n";
+    $body .= "Email: $email\n\n";
+    $body .= "Mensaje:\n$mensaje";
+
+    // Cabeceras
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "X-Mailer: PHP/" . phpversion();
+
+    // Enviar correo
     if (mail($to, $subject, $body, $headers)) {
-        echo "Mensaje enviado correctamente.";
+        echo "✅ Mensaje enviado correctamente.";
     } else {
-        echo "Error al enviar el mensaje.";
+        echo "❌ Error al enviar el mensaje.";
     }
 }
 ?>
