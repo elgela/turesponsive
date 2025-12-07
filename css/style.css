@@ -141,6 +141,8 @@ a.btn {
     position: relative;
     transition: .5s;
     z-index: 999;
+    padding: 15px;
+    background: #ffffff !important;
 }
 
 .navbar.nav-sticky {
@@ -157,7 +159,7 @@ a.btn {
     font-weight: 700;
     letter-spacing: 2px;
     transition: .5s;
-    
+    color: #EF233C;
 }
 
 .navbar .navbar-brand img {
@@ -165,11 +167,20 @@ a.btn {
     max-height: 40px;
 }
 
+.navbar .navbar-nav {
+    margin-top: 15px;
+}
+
+.navbar a.nav-link {
+    padding: 5px;
+}
+
 .navbar .dropdown-menu {
     margin-top: 0;
     border: 0;
     border-radius: 0;
     background: #f8f9fa;
+    box-shadow: none;
 }
 
 @media (min-width: 992px) {
@@ -219,7 +230,7 @@ a.btn {
     }
 }
 
-@media (max-width: 991.98px) {   
+/* @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
         background: #ffffff !important;
@@ -240,7 +251,7 @@ a.btn {
     .navbar .dropdown-menu {
         box-shadow: none;
     }
-}
+} */
 
 
 /*******************************/
@@ -250,12 +261,13 @@ a.btn {
     position: relative;
     width: 100%;
     margin-bottom: 45px;
-    padding: 120px 0 0 0;
+    padding: 60px 0 0 0; /*120*/
     overflow: hidden;
     background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center; /* centrado para mobile */
 }
 
 .hero .container-fluid {
@@ -265,7 +277,7 @@ a.btn {
 .hero .hero-image {
     position: relative;
     text-align: right;
-    padding-right: 75px;
+    padding: 0; /*paddin-right: 75px*/
 }
 
 .hero .hero-image img {
@@ -275,34 +287,34 @@ a.btn {
 
 .hero .hero-content {
     position: relative;
-    padding-left: 75px;
+    padding: 0 15px; /* padding-left: 75px*/
     display: flex;
-    align-items: flex-start;
+    align-items: center; /* flex-start */
     justify-content: center;
     flex-direction: column;
 }
 
 .hero .hero-text p {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 16px; /* 25px */
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .hero .hero-text h1 {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 30px; /* 60px */
     font-weight: 700;
-    letter-spacing: 3px;
+    letter-spacing: 2px; /* 3px */
     margin-bottom: 15px;
 }
 
 .hero .hero-text h2 {
     display: inline-block;
     margin: 0;
-    height: 35px;
+    height: 18px; /* 35px */
     color: #ffffff;
-    font-size: 35px;
+    font-size: 18px; /* 35px */
     font-weight: 600;
 }
 
@@ -317,7 +329,9 @@ a.btn {
 }
 
 .hero .hero-btn .btn {
-    margin-top: 35px;
+    margin-top: 25px; /* 35px */
+    padding: 8px 10px; /* nuevo */
+    letter-spacing: 0;/* nuevo */
     color: #EF233C;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
@@ -334,13 +348,39 @@ a.btn {
     margin-right: 10px;
 }
 
-@media (max-width: 991.98px) {
-    .hero {
-        padding-top: 60px;
+/* Tablets >=576px */
+@media (min-width: 575.98px) {
+    .hero .hero-text p {
+        font-size: 18px;
     }
     
-    .hero .hero-content {
-        padding: 0 15px;
+    .hero .hero-text h1 {
+        font-size: 35px;
+    }
+    
+    .hero .hero-text h2 {
+        font-size: 22px;
+        height: 22px;
+    }
+    
+    .hero .hero-btn .btn {
+        padding: 10px 15px;
+        letter-spacing: 1px;
+    }
+}
+
+/* Medium devices >=768px */
+@media (min-width: 767.98px) {
+    .hero {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .hero,
+    .hero .hero-text,
+    .hero .hero-btn {
+        width: 100%;
+        text-align: center;
     }
     
     .hero .hero-text p {
@@ -362,55 +402,35 @@ a.btn {
     }
 }
 
-@media (max-width: 767.98px) {
+/* Large devices >=992px */
+@media (min-width: 991.98px) {
     .hero {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding: 120px 0 0 0;
+        text-align: left;
     }
     
-    .hero,
-    .hero .hero-text,
-    .hero .hero-btn {
-        width: 100%;
-        text-align: center;
+    .hero .hero-content {
+        padding-left: 75px;
+        align-items: flex-start;
     }
     
     .hero .hero-text p {
-        font-size: 18px;
+        font-size: 25px;
     }
     
     .hero .hero-text h1 {
+        font-size: 60px;
+        letter-spacing: 3px;
+    }
+    
+    .hero .hero-text h2 {
         font-size: 35px;
-    }
-    
-    .hero .hero-text h2 {
-        font-size: 22px;
-        height: 22px;
+        height: 35px;
     }
     
     .hero .hero-btn .btn {
-        padding: 10px 15px;
+        padding: 12px 30px;
         letter-spacing: 1px;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .hero .hero-text p {
-        font-size: 16px;
-    }
-    
-    .hero .hero-text h1 {
-        font-size: 30px;
-    }
-    
-    .hero .hero-text h2 {
-        font-size: 18px;
-        height: 18px;
-    }
-    
-    .hero .hero-btn .btn {
-        padding: 8px 10px;
-        letter-spacing: 0;
     }
 }
 
@@ -461,13 +481,14 @@ a.btn {
 .section-header h2 {
     margin: 0;
     position: relative;
-    font-size: 45px;
+    font-size: 30px; /* base para mobile */
     font-weight: 700;
 }
 
-@media (max-width: 767.98px) {
+/* Desktop >=768px */
+@media (min-width: 767.98px) {
     .section-header h2 {
-        font-size: 30px;
+        font-size: 45px; /* se agranda en pantallas grandes */
     }
 }
 
@@ -502,7 +523,7 @@ a.btn {
 }
 
 .about .about-content {
-    padding: 0 60px;
+    padding: 45px 15px 0 15px;
 }
 
 .about .about-text p {
@@ -563,9 +584,10 @@ a.btn {
     color: #007bff;
 }
 
-@media (max-width: 991.98px) {
+/* Desktop >=992px */
+@media (min-width: 991.98px) {
     .about .about-content {
-        padding: 45px 15px 0 15px;
+        padding: 0 60px; /* se amplia en pantallas grandes*/
     }
 }
 
