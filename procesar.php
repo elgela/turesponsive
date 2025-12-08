@@ -27,7 +27,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Enviar correo
     if (mail($to, $subject, $body, $headers)) {
-        echo "✅ Mensaje enviado correctamente.";
+        echo "✅ El mensaje ha sido enviado. ";
+        echo '<button onclick="history.back();">Volver</button>';
     } else {
         echo "❌ Error al enviar el mensaje.";
     }
