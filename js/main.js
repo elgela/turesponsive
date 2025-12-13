@@ -110,8 +110,19 @@
 function toggleInfo() {
     const info = document.getElementById("info");
     if (info.style.display === "none" || info.style.display === "") {
-    info.style.display = "block";
+        info.style.display = "block";
     } else {
-    info.style.display = "none";
+        info.style.display = "none";
     }
 }
+
+const imagenes = document.querySelectorAll('.miImagen');
+imagenes.forEach(img => {
+    img.addEventListener('click', () => {
+        if (!img.fullscreenElement) {
+            img.requestFullscreen();
+        } else {
+            img.exitFullscreen();
+        }
+    })
+})
