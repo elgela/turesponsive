@@ -715,10 +715,18 @@ a.btn {
     font-weight: 400;
 }
 
+.experience .timeline .timeline-text .miImagen {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+
 .experience .timeline .timeline-text p {
     margin: 0;
     font-size: 16px;
 }
+
 
 @media (max-width: 767.98px) {
     .experience .timeline::after {
