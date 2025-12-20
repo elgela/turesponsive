@@ -1550,3 +1550,33 @@ label {
         padding: 0 5px;
     }
 }
+
+/*******************************/
+/*********** BLOGS *************/
+/*******************************/
+body {
+    margin: 0;
+}
+
+#consejos {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+#consejos h1 {
+    color: #dc3545;
+    margin: 5px;
+}
+
+.list span {
+    color: black;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.list li {
+    padding: 10px;
+    color: #706e6e;
+}
