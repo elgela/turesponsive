@@ -1558,14 +1558,37 @@ body {
     margin: 0;
 }
 
-#consejos {
+.row-blog {
     background-color: #ecdbdb;
     margin: 0;
 }
 
-#consejos h1 {
+.row-blog h1 {
     color: #dc3545;
     margin: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.row-blog h3 {
+    color: #dc3545;
+    margin: 5px;
+}
+
+.row-blog p {
+    text-transform: uppercase;
+    margin: 8px;
+}
+
+.row-blog p span {
+    font-weight: bolder;
+    color: #13071f;
+}
+
+#consejos h3::before,
+#responsive h3::before {
+    content: '\a';
+    white-space: pre;
 }
 
 .list span {
@@ -1579,4 +1602,15 @@ body {
 .list li {
     padding: 10px;
     color: #706e6e;
+}
+
+button {
+    border-radius: 10px;
+    border-style: inherit;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+    background-color: rgb(253, 172, 172);
 }
