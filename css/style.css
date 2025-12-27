@@ -1645,14 +1645,14 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  .tabla-comparativa table,
+  /* .tabla-comparativa table,
   .tabla-comparativa thead,
   .tabla-comparativa tbody,
   .tabla-comparativa th,
   .tabla-comparativa td,
   .tabla-comparativa tr {
-    /* display: block; */
-  }
+    display: block;
+  } */
 
   .tabla-comparativa tr {
     margin-bottom: 15px;
