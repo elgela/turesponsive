@@ -1275,12 +1275,9 @@ label {
     display: block; /* elimina espacios extra */
     margin: 0 auto; /* centra la imagen */
     /* object-fit: contain; */ /* para que se vea completa sin recortes */
+    border-radius: 10%;
 }
 
-/* .plans img {
-    width: 100%;
-    height: auto;
-} */
 
 /*******************************/
 /********* Contact CSS *********/
