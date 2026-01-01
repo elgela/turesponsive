@@ -1260,6 +1260,29 @@ label {
 
 
 /*******************************/
+/********** Plans CSS **********/
+/*******************************/
+/* .plans {
+    position: relative;
+    margin: 45px 0;
+    padding: 90px 0;
+} */
+
+.plans img {
+    max-width: 100%; /* nunca más ancho que el contenedor/pantalla */
+    max-height: 80vh; /* nunca más alto que la ventana visible */
+    height: auto; /* mantiene proporción */
+    display: block; /* elimina espacios extra */
+    margin: 0 auto; /* centra la imagen */
+    /* object-fit: contain; */ /* para que se vea completa sin recortes */
+}
+
+/* .plans img {
+    width: 100%;
+    height: auto;
+} */
+
+/*******************************/
 /********* Contact CSS *********/
 /*******************************/
 .contact {
