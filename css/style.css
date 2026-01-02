@@ -1274,10 +1274,25 @@ label {
     height: auto; /* mantiene proporción */
     display: block; /* elimina espacios extra */
     margin: 0 auto; /* centra la imagen */
-    /* object-fit: contain; */ /* para que se vea completa sin recortes */
-    border-radius: 10%;
+    /* object-fit: contain; /* para que se vea completa sin recortes */
+    border-radius: 5px;
 }
 
+.blue-button {
+    background-color: #3483FA;
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-family: Arial, sans-serif;
+}
+
+.blue-button:hover {
+    background-color: #2a68c8;
+}
 
 /*******************************/
 /********* Contact CSS *********/
