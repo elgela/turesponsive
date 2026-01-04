@@ -1454,6 +1454,16 @@ label {
     margin: 0;
 }
 
+@media (min-width: 990px) {
+    #posts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 15px;
+    }
+
+}
+
+
 
 /*******************************/
 /********* Footer CSS **********/
