@@ -281,8 +281,8 @@ a.btn {
 }
 
 .hero .hero-image img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 80rem;
+    max-height: 80rem;
 }
 
 .hero .hero-content {
@@ -400,6 +400,12 @@ a.btn {
         padding: 12px 30px;
         letter-spacing: 1px;
     }
+
+    .hero .hero-image img {
+        max-width: 70rem;
+        max-height: 90rem;
+    }
+
 }
 
 /* Large devices >=992px */
@@ -432,6 +438,8 @@ a.btn {
         padding: 12px 30px;
         letter-spacing: 1px;
     }
+
+
 }
 
 
