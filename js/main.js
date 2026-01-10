@@ -137,33 +137,6 @@ document.querySelectorAll('.navbar-nav a').forEach(link => {
     });
 });
 
-///////////// botón instalación página
-let deferredPrompt;
-
-window.addEventListener("beforeinstallprompt", (e) => {
-  // Evita que el navegador muestre el banner automático
-  e.preventDefault();
-  deferredPrompt = e;
-
-  // Aquí puedes mostrar tu propio botón de "Instalar"
-  const installBtn = document.getElementById("installBtn");
-  installBtn.style.display = "block";
-
-  installBtn.addEventListener("click", () => {
-    installBtn.style.display = "none";
-    deferredPrompt.prompt(); // Muestra el diálogo de instalación
-
-    deferredPrompt.userChoice.then((choiceResult) => {
-      if (choiceResult.outcome === "accepted") {
-        console.log("El usuario instaló la aplicación");
-      } else {
-        console.log("El usuario canceló la instalación");
-      }
-      deferredPrompt = null;
-    });
-  });
-});
-
 ///////////////// paginacion //////////////
 let pagina = 0;
 const postsPorPagina = 4;
