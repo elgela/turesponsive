@@ -1306,6 +1306,39 @@ label {
     background-color: #2a68c8;
 }
 
+.plans-carousel .owl-nav {
+    display: none;
+}
+
+.navP {
+    text-align: center;
+    display: block;
+}
+
+
+@media (min-width: 900px) {
+    .plans-carousel .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: #fbef04;
+        /* pointer-events: none; */
+    }
+
+    .plans-carousel .owl-nav .owl-prev:hover,
+    .plans-carousel .owl-nav .owl-next:hover {
+        color: aqua;
+        font-size: larger;
+    }
+
+    .navP {
+        display: none;
+    }
+}
+
+
 /*******************************/
 /********* Contact CSS *********/
 /*******************************/

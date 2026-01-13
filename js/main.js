@@ -91,6 +91,20 @@
         }
     });
     
+    // Plans carousel
+    $(".plans-carousel").owlCarousel({
+        center: true,
+        autoplay: false,
+        dots: true,
+        nav: true,
+        navText: ["⬅️ Ant", "Sig ➡️"],
+        loop: true,
+        responsive: {
+            0:{
+                items:1
+            }
+        }
+    });
     
     
     // Portfolio filter
