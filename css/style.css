@@ -267,7 +267,7 @@ a.btn {
     margin-bottom: 45px;
     padding: 60px 0 0 0; /*120*/
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(#7ae14b, rgba(239, 35, 59, 0.79)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1188,7 +1188,7 @@ label {
     position: relative;
     margin: 45px 0;
     padding: 90px 0;
-    background: #EF233C;
+    background: linear-gradient(#7ae14b, rgba(239, 35, 59, 0.79));
 }
 
 .testimonial .container {
