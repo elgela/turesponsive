@@ -97,7 +97,10 @@
         autoplay: false,
         dots: true,
         nav: true,
-        navText: ["⬅️ Ant", "Sig ➡️"],
+        navText: [
+            '<i class="fa fa-chevron-left"></i>',
+            '<i class="fa fa-chevron-right"></i>'
+        ],
         loop: true,
         responsive: {
             0:{
