@@ -1323,7 +1323,7 @@ label {
 @media (min-width: 900px) {
     .plans-carousel .owl-nav {
         position: absolute;
-        top: 50%;
+        top: 40%;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -1335,6 +1335,20 @@ label {
     .plans-carousel .owl-nav .owl-next:hover {
         color: aqua;
         font-size: larger;
+    }
+
+    .fa-chevron-left,
+    .fa-chevron-right {
+        font-size: 80px;
+        color: black;
+    }
+
+    .fa-chevron-left {
+        margin-left: -50px;
+    }
+
+    .fa-chevron-right {
+        margin-right: -50px;
     }
 
     .navP {
