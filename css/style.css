@@ -234,30 +234,6 @@ a.btn {
     }
 }
 
-/* @media (max-width: 991.98px) {   
-    .navbar {
-        padding: 15px;
-        background: #ffffff !important;
-    }
-    
-    .navbar .navbar-brand {
-        color: #EF233C;
-    }
-    
-    .navbar .navbar-nav {
-        margin-top: 15px;
-    }
-    
-    .navbar a.nav-link {
-        padding: 5px;
-    }
-    
-    .navbar .dropdown-menu {
-        box-shadow: none;
-    }
-} */
-
-
 /*******************************/
 /********** Hero CSS ***********/
 /*******************************/
@@ -1339,8 +1315,13 @@ label {
 
     .fa-chevron-left,
     .fa-chevron-right {
-        font-size: 80px;
-        color: black;
+        font-size: 60px;
+        color: rgb(103, 102, 102);
+    }
+
+    .fa-chevron-left:hover,
+    .fa-chevron-right:hover {
+        color: #000;
     }
 
     .fa-chevron-left {
@@ -1349,6 +1330,7 @@ label {
 
     .fa-chevron-right {
         margin-right: -50px;
+        margin-left: 10px;
     }
 
     .navP {
