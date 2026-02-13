@@ -910,7 +910,7 @@ a.btn {
 }
 
 .portfolio .portfolio-item:hover img {
-    margin-left: 15px;
+    transform: scale(1.05);
 }
 
 .portfolio .portfolio-text {
