@@ -905,7 +905,7 @@ a.btn {
     width: 100%; 
     height: 100%; 
     object-fit: cover;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     transition: .5s;
 }
 
@@ -917,7 +917,7 @@ a.btn {
     position: relative;
     height: 60px;
     width: calc(100% - 30px);
-    margin: -30px 15px 30px 15px;
+    margin: -10px 15px 30px 15px;
     display: flex;
     align-items: center;
     background: #ffffff;
