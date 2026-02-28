@@ -31,10 +31,19 @@
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/style.css"></noscript>
 
     <!-- Manifest.json -->
     <link rel="manifest" href="/manifest.json">
+
+    <link rel="preload" href="img/conAbby.webp"
+                        as="image"
+                        imagesrcset="img/conAbby.webp 158w,
+                                    img/conAbby.webp 300w,
+                                    img/cnAbby.webp 492w"
+                        imagesizes="(max-width: 600px) 400px
+                                    (max-width: 1200px) 800px">
 
 </head>
 
@@ -70,7 +79,11 @@
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-6 d-none d-md-block">
                     <div class="hero-image">
-                        <img src="img/yo.png" alt="Marcelo de traje" loading="lazy">
+                        <img src="img/yo.webp" srcset="img/yo.webp 158w,
+                                                       img/yo.webp 300w, 
+                                                       img/yo.webp 492w" sizes="(max-width: 600px) 158w,
+                                                                                (max-width: 800px) 300w,
+                                                                                (max-width: 1080px) 492w" alt="Marcelo de traje">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
@@ -102,7 +115,7 @@
                     <div class="about-img">
                         <img src="img/conAbby.webp" srcset="img/conAbby.webp 158w,
                                                     img/conAbby.webp 300w,
-                                                    img/conAbby.webp 492w" sizes="(max-width: 600px) 158px, 300px" alt="Marcelo con Abby arriba mesa" loading="lazy">
+                                                    img/conAbby.webp 492w" sizes="(max-width: 600px) 158px, 300px" alt="Marcelo con Abby arriba mesa">
                     </div>
                 </div>
                 <div class="col-lg-6">
