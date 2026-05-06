@@ -243,11 +243,42 @@ a.btn {
     margin-bottom: 45px;
     padding: 60px 0 0 0; /*120*/
     overflow: hidden;
-    background: linear-gradient(#7ae14b, rgba(239, 35, 59, 0.79)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(239, 35, 59, 0.79)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center; /* centrado para mobile */
+}
+
+.hero .hero-presentacion {
+    position: relative;
+    width: 100%;
+    /* margin: auto; */
+}
+
+.hero .hero-presentacion img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 9px;
+}
+
+.hero .button-cta {
+    position: absolute;
+    bottom: 40%;
+    left: 45%;
+    transform: translateX(-50%);
+    padding: 0.5vw 2vw;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: rgb(246, 105, 5);
+    color: white;
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero .button-cta:hover {
+    background-color: chocolate;
 }
 
 .hero .container-fluid {
