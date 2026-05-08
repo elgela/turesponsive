@@ -157,10 +157,10 @@ a.btn {
     font-size: 30px;
     line-height: 0px;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     transition: .5s;
-    color: rgba(239, 35, 60, .95);
-    text-shadow: 3px 3px 0 #000, -3px -3px 0 rgba(189, 138, 129, 0.784), 5px 5px 10px rgba(0,0,0,0.5);
+    color: rgba(249, 213, 218, 0.95);
+    text-shadow: 2px 2px 0 #000, -3px -3px 0 rgba(189, 138, 129, 0.784), 5px 5px 10px rgba(0,0,0,0.5);
 
 }
 
