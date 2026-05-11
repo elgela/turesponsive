@@ -159,7 +159,7 @@ a.btn {
     font-weight: 700;
     letter-spacing: 5px;
     transition: .5s;
-    color: rgba(249, 213, 218, 0.95);
+    color: #EF233C;
     text-shadow: 2px 2px 0 #000, -3px -3px 0 rgba(189, 138, 129, 0.784), 5px 5px 10px rgba(0,0,0,0.5);
 
 }
@@ -201,6 +201,7 @@ a.btn {
     }
     
     .navbar .navbar-brand {
+        color: #ffffff;
         font-size: 40px;
         /* color: #ffffffe3; */
         text-shadow: 3px 3px 0 #000, -3px -3px 0 rgba(97, 4, 55, 0.587), 5px 5px 10px rgba(0,0,0,0.5);
