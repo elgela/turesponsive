@@ -270,6 +270,7 @@ a.btn {
 }
 
 .hero .button-cta {
+    display: flex;
     position: absolute;
     bottom: 40%;
     left: 45%;
@@ -285,6 +286,12 @@ a.btn {
 
 .hero .button-cta:hover {
     background-color: chocolate;
+}
+
+.hero .button-cta img {
+    width: auto;
+    height: 1em;
+    margin: 10px;
 }
 
 .hero .container-fluid {
