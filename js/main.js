@@ -28,7 +28,16 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
-    
+
+    // WhatsApp button
+    window.addEventListener("scroll", function() {
+        const whatsappBtn = document.querySelector(".whatsapp");
+        if (window.scrollY > 900) {
+            whatsappBtn.style.display = "block";
+        } else {
+            whatsappBtn.style.display = "none";
+        }
+    });
     
     // Sticky Navbar
     $(window).scroll(function () {

@@ -133,6 +133,17 @@ a.btn {
     color: #414141;
 }
 
+.whatsapp {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    padding: 8px 0;
+    text-align: center;
+    line-height: 1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 75px;
+}
 
 /**********************************/
 /*********** Nav Bar CSS **********/
