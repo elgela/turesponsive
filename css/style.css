@@ -133,16 +133,48 @@ a.btn {
     color: #414141;
 }
 
+
 .whatsapp {
     position: fixed;
-    width: 65px;
-    height: 65px;
-    padding: 8px 0;
+    width: 55px;
+    height: 45px;
+    /* padding: 8px 0; */
     text-align: center;
     line-height: 1;
     font-size: 22px;
-    right: 15px;
+    right: 20px;
     bottom: 75px;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-whatsapp {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    right: 28px;
+    color: white;
+    border-radius: 50%;
+    line-height: 45px; /* centra el ícono verticalmente */
+    font-size: 30px;   /* tamaño del ícono */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.fa-facebook {
+    bottom: 155px;
+    background-color: #1877f2; /* azul Facebook */
+}
+
+.fa-instagram {
+    bottom: 210px;
+    background-color: #db2058; /* color instagram */
+}
+
+.fa-whatsapp {
+    bottom: 100px;
+    background-color: #25d366;
+    font-size: 37px;  /* tamaño del ícono */
 }
 
 /**********************************/
