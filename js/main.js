@@ -29,13 +29,19 @@
         return false;
     });
 
-    // WhatsApp button
+    // Redes button
     window.addEventListener("scroll", function() {
-        const whatsappBtn = document.querySelector(".whatsapp");
-        if (window.scrollY > 900) {
+        const whatsappBtn = document.querySelector(".fa-whatsapp");
+        // const faceBtn = document.querySelector(".fa-facebook");
+        // const instaBtn = document.querySelector(".fa-instagram");
+        if (window.scrollY > 500) {
             whatsappBtn.style.display = "block";
+            // faceBtn.style.display = "block";
+            // instaBtn.style.display = "block";
         } else {
             whatsappBtn.style.display = "none";
+            // faceBtn.style.display = "none";
+            // instaBtn.style.display = "none";
         }
     });
     
