@@ -148,7 +148,8 @@ a.btn {
 
 .fa-instagram,
 .fa-facebook,
-.fa-whatsapp {
+.fa-whatsapp,
+.fa-threads {
     position: fixed;
     width: 45px;
     height: 45px;
@@ -175,6 +176,11 @@ a.btn {
     bottom: 100px;
     background-color: #25d366;
     font-size: 37px;  /* tamaño del ícono */
+}
+
+.fa-threads {
+    bottom: 265px;
+    background-color: #000;
 }
 
 /**********************************/
