@@ -133,19 +133,6 @@ a.btn {
     color: #414141;
 }
 
-
-.whatsapp {
-    position: fixed;
-    width: 55px;
-    height: 45px;
-    /* padding: 8px 0; */
-    text-align: center;
-    line-height: 1;
-    font-size: 22px;
-    right: 20px;
-    bottom: 75px;
-}
-
 .fa-instagram,
 .fa-facebook,
 .fa-whatsapp,
@@ -181,6 +168,21 @@ a.btn {
 .fa-threads {
     bottom: 265px;
     background-color: #000;
+}
+
+@media (max-width: 660px) {
+    .fa-instagram,
+    .fa-facebook,
+    .fa-whatsapp,
+    .fa-threads {
+        width: 30px;
+        height: 30px;
+        right: 30px;
+        border-radius: 50%;
+        line-height: 30px; /* centra el ícono verticalmente */
+        font-size: 20px;   /* tamaño del ícono */
+    }
+
 }
 
 /**********************************/
