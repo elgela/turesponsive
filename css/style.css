@@ -1377,10 +1377,12 @@ label {
 .blue-button {
     background-color: #3483FA;
     color: white;
+    margin: auto;
     padding: 10px 24px;
     text-decoration: none;
     border-radius: 5px;
-    display: inline-block;
+    display: grid;
+    width: 11rem;
     font-size: 16px;
     transition: background-color 0.3s;
     font-family: Arial, sans-serif;
@@ -1388,6 +1390,10 @@ label {
 
 .blue-button:hover {
     background-color: #2a68c8;
+}
+
+.wow a {
+    margin-top: 5px;
 }
 
 .plans-carousel .owl-nav {
