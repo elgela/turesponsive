@@ -17,14 +17,14 @@ h6 {
 }
 
 a {
-    color: #313131;
+    color: #fbf8f8;
     transition: .3s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #451b76;
+    color: #343a40;
     outline: none;
     text-decoration: none;
 }
@@ -1730,6 +1730,10 @@ label {
 
 .footer .copyright p a:hover {
     color: #414141;
+}
+
+.footer .copyright img {
+    width: 1em;
 }
 
 @media (max-width: 575.98px) {
