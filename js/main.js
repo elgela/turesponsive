@@ -230,8 +230,8 @@ function mostrarHora() {
     const fecha = ahora.toLocaleDateString();
     const horas = String(ahora.getHours()).padStart(2, '0'); // padStart asegura que el texto tenga al menos 2 caracteres, y si no, le agrega ceros a la izquierda.
     const minutos = String(ahora.getMinutes()).padStart(2, '0'); // String convierte número en texto
-    const segundos = String(ahora.getSeconds()).padStart(2, '0');
-    document.getElementById("hora").textContent = `${horas}:${minutos}:${segundos}`;
+    // const segundos = String(ahora.getSeconds()).padStart(2, '0');
+    document.getElementById("hora").textContent = `${horas}:${minutos}`;
     document.getElementById("fecha").textContent = `${fecha}`;
 }
 setInterval(mostrarHora, 1000);
