@@ -317,7 +317,7 @@ a.btn {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 9px;
+    /* border-radius: 9px; */
 }
 
 .hero .button-cta {
@@ -337,6 +337,21 @@ a.btn {
 
 .hero .button-cta:hover {
     background-color: chocolate;
+}
+
+.hero .horaFecha {
+    top: 20px;
+    color: #f8e6b6;
+}
+
+.hero #hora {
+    font-size: 1.5em;
+    font-weight: bold;
+    /* padding: 10px; */
+}
+
+.hero .fecha {
+    margin: 0;
 }
 
 .hero .button-cta img {
@@ -482,6 +497,17 @@ a.btn {
         max-height: 90rem;
     }
 
+    .hero .horaFecha {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+
+    .hero #hora {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
 }
 
 /* Large devices >=992px */
@@ -515,6 +541,9 @@ a.btn {
         letter-spacing: 1px;
     }
 
+    .hero .fecha {
+        text-align: center;
+    }
 
 }
 
