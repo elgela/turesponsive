@@ -227,12 +227,14 @@ document.getElementById("verMas").addEventListener("click", () => {
 
 function mostrarHora() {
     const ahora = new Date(); // new Date() contiene fecha y hora actual del sistema
-    const fecha = ahora.toLocaleDateString();
+    const dia = String(ahora.getDate()).padStart(2, '0');
+    const mes = String(ahora.getMonth()+1).padStart(2, '0');
+    const anio = String(ahora.getFullYear()).padStart(4, '0');
     const horas = String(ahora.getHours()).padStart(2, '0'); // padStart asegura que el texto tenga al menos 2 caracteres, y si no, le agrega ceros a la izquierda.
     const minutos = String(ahora.getMinutes()).padStart(2, '0'); // String convierte número en texto
     // const segundos = String(ahora.getSeconds()).padStart(2, '0');
     document.getElementById("hora").textContent = `${horas}:${minutos}`;
-    document.getElementById("fecha").textContent = `${fecha}`;
+    document.getElementById("fecha").textContent = `${dia}/${mes}/${anio}`;
 }
 setInterval(mostrarHora, 1000);
 mostrarHora();
