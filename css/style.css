@@ -349,6 +349,11 @@ a.btn {
     font-weight: bold;
 }
 
+.hero .hora {
+    margin: 0;
+    text-align: center;
+}
+
 .hero .fecha {
     margin: 0;
 }
@@ -506,6 +511,10 @@ a.btn {
     .hero #hora {
         font-size: 1.5em;
     }
+    
+    .hero .hora {
+        text-align: right;
+    }
 
 }
 
@@ -541,7 +550,7 @@ a.btn {
     }
 
     .hero .fecha {
-        text-align: center;
+        text-align: right;
     }
 
 }
