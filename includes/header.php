@@ -2,7 +2,7 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-light navbar-light">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">turesponsive<img src="img/logos/logo_circ.png"
+            <a href="index.php" class="navbar-brand">turesponsive<img src="img/logos/logo_circ.png"
                     alt="logo turesponsive" class="logo_himno"></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-label="Menú">
