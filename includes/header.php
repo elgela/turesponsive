@@ -50,8 +50,6 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
-
-
     <header>
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
