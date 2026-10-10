@@ -4,8 +4,8 @@
 <div class="blog" id="blog">
     <div class="container-posts">
         <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-            <p>Del Blog</p>
-            <h2>Últimos artículos</h2>
+            <p>Blog</p>
+            <h2>Últimas novedades</h2>
         </div>
 
         <div id="posts" class="row"></div>
