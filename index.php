@@ -50,35 +50,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <!-- Nav Bar Start -->
-    <div class="navbar navbar-expand-lg bg-light navbar-light">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">turesponsive<img src="img/logos/logo_circ.png" alt="logo turesponsive"
-                    class="logo_himno"></a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-label="Menú">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto">
-                    <a href="#home" class="nav-item nav-link active">Inicio</a>
-                    <a href="#about" class="nav-item nav-link">Sobre mi</a>
-                    <a href="#service" class="nav-item nav-link">Servicios</a>
-                    <a href="#experience" class="nav-item nav-link">Experiencia</a>
-                    <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                    <a href="#review" class="nav-item nav-link">Reseñas</a>
-                    <a href="#plans" class="nav-item nav-link">Planes</a>
-                    <a href="#blog" class="nav-item nav-link">Blog</a>
-                    <a href="#contact" class="nav-item nav-link">Contacto</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-    </div>
-    <!-- Nav Bar End -->
-
+    <?php include 'includes/header.php'; ?>
     <!-- Hero Start -->
     <div class="hero" id="home">
         <div class="container-fluid">
@@ -141,10 +113,16 @@
                     <div class="about-content">
                         <div class="section-header text-left">
                             <p>Conoceme</p>
-                            <h2>Experiencia en proyectos reales desde 2022, combinando formación universitaria y práctica freelance</h2>
+                            <h2>Experiencia en proyectos reales desde 2022, combinando formación universitaria y
+                                práctica freelance</h2>
                         </div>
                         <div class="about-text">
-                            <p>Soy desarrollador web freelance especializado en sitios responsivos y funcionales. Desde 2022 he trabajado en proyectos reales para emprendimientos y empresas, combinando diseño visual con programación práctica. Mi objetivo es que cada página transmita identidad propia y ofrezca una experiencia clara y atractiva para los usuarios. Me apasiona aprender y aplicar nuevas tendencias, por eso cada proyecto es también una oportunidad de crecer junto a mis clientes.</p>
+                            <p>Soy desarrollador web freelance especializado en sitios responsivos y funcionales. Desde
+                                2022 he trabajado en proyectos reales para emprendimientos y empresas, combinando diseño
+                                visual con programación práctica. Mi objetivo es que cada página transmita identidad
+                                propia y ofrezca una experiencia clara y atractiva para los usuarios. Me apasiona
+                                aprender y aplicar nuevas tendencias, por eso cada proyecto es también una oportunidad
+                                de crecer junto a mis clientes.</p>
                             <!-- <p>Estoy construyendo mi camino profesional combinando autoformación, experiencia práctica y
                                 estudios universitarios, lo que me permite abordar cada proyecto con una base técnica
                                 sólida y una mentalidad en constante crecimiento.</p> -->
@@ -428,7 +406,8 @@
                     <div class="portfolio-wrap">
                         <div class="portfolio-img">
                             <a href="https://elgela.github.io/entreagujasytelares/" target="_blank"><img
-                                    src="img/portfolio_img/entreAgujaYtelares.png" alt="logo qr de EAyT" loading="lazy"></a>
+                                    src="img/portfolio_img/entreAgujaYtelares.png" alt="logo qr de EAyT"
+                                    loading="lazy"></a>
                         </div>
                         <p>tocar imagen para entrar</p>
                         <div class="portfolio-text">
@@ -443,7 +422,8 @@
                     <div class="portfolio-wrap">
                         <div class="portfolio-img">
                             <a href="https://elgela.github.io/vuelta_y_vuelta/index.html" target="_blank"><img
-                                    src="img/portfolio_img/velta&vuelta.png" alt="imagen de vuelta y vuelta" loading="lazy"></a>
+                                    src="img/portfolio_img/velta&vuelta.png" alt="imagen de vuelta y vuelta"
+                                    loading="lazy"></a>
                         </div>
                         <p>tocar imagen para entrar</p>
                         <div class="portfolio-text">
@@ -457,8 +437,9 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="portfolio-wrap">
                         <div class="portfolio-img">
-                            <a href="https://www.casaalpina.com.ar/" target="_blank"><img src="img/portfolio_img/casaalpina.png"
-                                    alt="imagen de casaalpina" loading="lazy"></a>
+                            <a href="https://www.casaalpina.com.ar/" target="_blank"><img
+                                    src="img/portfolio_img/casaalpina.png" alt="imagen de casaalpina"
+                                    loading="lazy"></a>
                         </div>
                         <p>tocar imagen para entrar</p>
                         <div class="portfolio-text">
@@ -472,8 +453,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-6 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <div class="portfolio-img">
-                            <a href="https://elgela.github.io/tiendasPP/" target="_blank"><img src="img/portfolio_img/tiendasPP.png"
-                                    alt="imagen de tiendas PP" loading="lazy"></a>
+                            <a href="https://elgela.github.io/tiendasPP/" target="_blank"><img
+                                    src="img/portfolio_img/tiendasPP.png" alt="imagen de tiendas PP" loading="lazy"></a>
                         </div>
                         <p>tocar imagen para entrar</p>
                         <div class="portfolio-text">
@@ -486,8 +467,9 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-5 wow fadeInUp" data-wow-delay="0.0">
                     <div class="portfolio-wrap">
                         <div class="portfolio-img">
-                            <a href="https://elgela.github.io/confirmacion" target="_blank"><img src="img/portfolio_img/reserva_confirmada_casaalpina.png"
-                                    alt="plantilla reserva" loading="lazy"></a>
+                            <a href="https://elgela.github.io/confirmacion" target="_blank"><img
+                                    src="img/portfolio_img/reserva_confirmada_casaalpina.png" alt="plantilla reserva"
+                                    loading="lazy"></a>
                         </div>
                         <p>tocar imagen para ver</p>
                         <div class="portfolio-text">
@@ -501,7 +483,8 @@
                     <div class="portfolio-wrap">
                         <div class="portfolio-img">
                             <a href="https://elgela.github.io/checkin" target="_blank"><img
-                                    src="img/portfolio_img/checkin_casaalpina.png" alt="plantilla checkin" loading="lazy"></a>
+                                    src="img/portfolio_img/checkin_casaalpina.png" alt="plantilla checkin"
+                                    loading="lazy"></a>
                         </div>
                         <p>tocar imagen para ver</p>
                         <div class="portfolio-text">
@@ -813,44 +796,6 @@
     </div>
     <!-- Contact End -->
 
-    <!-- Footer Start -->
-    <div class="footer wow fadeIn" data-wow-delay="0.3s">
-        <div class="container-fluid">
-            <div class="container">
-                <div class="footer-info">
-                    <h2>Marcelo Gelato</h2>
-                    <h3>Tandil, Buenos Aires, Argentina</h3>
-                    <div class="footer-menu">
-                        <p>+54 2494 357255</p>
-                        <p><a
-                                href="mailto: contacto@turesponsive.com.ar?subject=Solicito%20información">contacto@turesponsive.com.ar</a>
-                        </p>
-                    </div>
-                    <div class="footer-social">
-                        <a href="https://www.threads.com/@turesponsive" target="_blank" title="Threads"><i class="bi bi-threads"></i></a>
-                        <a href="https://www.instagram.com/turesponsive/" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=61573044580590&sk=about&locale=es_LA" target="_blank" title="Facebook"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a href="https://wa.me/5492494357255?text=Hola, %20quiero%20mi%20página%20web" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-
-                        <!-- <a href=""><i class="fab fa-youtube"></i></a> -->
-                        <!-- <a href="https://www.linkedin.com/in/marcelo-gelato" target="_blank" title="LinkedIn"><i
-                                class="fab fa-linkedin-in"></i></a> -->
-                    </div>
-                </div>
-            </div>
-            <div class="container copyright">
-                <p>Webmaster: <a href="https://www.turesponsive.com.ar" target="_blank">turesponsive <img src="img/logos/logo_circ.png" alt="logo con copa mundial"></a>
-                    |
-
-                    <!--/*** The author’s attribution link must remain intact in the template. ***/-->
-                    <!--/*** If you wish to remove this credit link, please purchase the Pro Version . ***/-->
-                    Development: <a href="https://htmlcodex.com" target="_blank">HTML Codex</a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
 
     <!-- Threads button -->
     <a href="https://www.threads.com/@turesponsive" target="_blank" title="Threads"><img
@@ -868,8 +813,7 @@
     <a href="https://wa.me/5492494357255?text=Hola, %20quiero%20mi%20página%20web" target="_blank" title="WhatsApp"><i
             class="fab fa-whatsapp"></i></a>
 
-
-
+            
     <!-- Back to top button -->
     <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
 
