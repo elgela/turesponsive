@@ -1820,6 +1820,11 @@ body {
     text-align: center;
 }
 
+.row-blog #seo img {
+    width: 50px;
+    height: auto;
+}
+
 .row-blog h3 {
     color: #dc3545;
     margin: 5px;
