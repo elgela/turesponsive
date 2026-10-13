@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-12">
                 <ul id="portfolio-filter">
-                    <li data-filter="*" class="filter-active">Ampliar</li>
+                    <!-- <li data-filter="*" class="filter-active">Ampliar</li> -->
                     <li data-filter=".filter-1">eCommerce</li>
                     <li data-filter=".filter-2">Restaurantes</li>
                     <li data-filter=".filter-3">Cabañas</li>
@@ -25,15 +25,18 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
                 <div class="portfolio-wrap">
                     <div class="portfolio-img">
-                        <a href="https://elgela.github.io/entreagujasytelares/" target="_blank"><img
-                                src="img/portfolio_img/entreAgujaYtelares.png" alt="logo qr de EAyT"
-                                loading="lazy"></a>
+                        <a href="https://elgela.github.io/entreagujasytelares/" target="_blank">
+                            <picture>
+                                <source srcset="img/portfolio_img/entreAgujaYtelares.png" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/entreAgujaYtelares.png" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/entreAgujaYtelares.png" alt="imagen de pagina EAyT" loading="lazy">
+                            </picture>
+                        </a>   
                     </div>
                     <p>tocar imagen para entrar</p>
                     <div class="portfolio-text">
                         <h3>Entre Agujas y Telares</h3>
-                        <img src="img/EAyT_logo-circ_oscuro.webp" alt="qr de página entre agujas y telares">
-                        <!-- <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a> -->
+                        <img src="img/EAyT_logo-circ_oscuro.webp" alt="logo de pagina entre agujas y telares">
                     </div>
                 </div>
             </div>
@@ -41,15 +44,18 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="portfolio-wrap">
                     <div class="portfolio-img">
-                        <a href="https://elgela.github.io/vuelta_y_vuelta/index.html" target="_blank"><img
-                                src="img/portfolio_img/velta&vuelta.png" alt="imagen de vuelta y vuelta"
-                                loading="lazy"></a>
+                        <a href="https://elgela.github.io/vuelta_y_vuelta/index.html" target="_blank">
+                            <picture>
+                                <source srcset="img/portfolio_img/velta&vuelta.png" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/velta&vuelta.png" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/velta&vuelta.png" alt="imagen de vuelta y vuelta" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                     <p>tocar imagen para entrar</p>
                     <div class="portfolio-text">
                         <h3>Vuelta&Vuelta Restaurant</h3>
                         <img src="img/VyV-logo.webp" alt="imagen de página de vuelta y vuelta">
-                        <!-- <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a> -->
                     </div>
                 </div>
             </div>
@@ -57,15 +63,18 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="portfolio-wrap">
                     <div class="portfolio-img">
-                        <a href="https://www.casaalpina.com.ar/" target="_blank"><img
-                                src="img/portfolio_img/casaalpina.png" alt="imagen de casaalpina"
-                                loading="lazy"></a>
+                        <a href="https://www.casaalpina.com.ar/" target="_blank">
+                            <picture>
+                                <source srcset="img/portfolio_img/casaalpina.png" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/casaalpina.png" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/casaalpina.png" alt="imagen de casaalpina" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                     <p>tocar imagen para entrar</p>
                     <div class="portfolio-text">
                         <h3>Cabañas CasaAlpina</h3>
                         <img src="img/casaalpina-solo_logoJPG.jpg" alt="qr de página de casaalpina">
-                        <!-- <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a> -->
                     </div>
                 </div>
             </div>
@@ -73,8 +82,13 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-6 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="portfolio-wrap">
                     <div class="portfolio-img">
-                        <a href="https://elgela.github.io/tiendasPP/" target="_blank"><img
-                                src="img/portfolio_img/tiendasPP.png" alt="imagen de tiendas PP" loading="lazy"></a>
+                        <a href="https://elgela.github.io/tiendasPP/" target="_blank">
+                            <picture>
+                                <source srcset="img/portfolio_img/tiendasPP.png" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/tiendasPP.png" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/tiendasPP.png" alt="imagen de tiendas PP" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                     <p>tocar imagen para entrar</p>
                     <div class="portfolio-text">
@@ -87,14 +101,17 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-5 wow fadeInUp" data-wow-delay="0.0">
                 <div class="portfolio-wrap">
                     <div class="portfolio-img">
-                        <a href="https://elgela.github.io/confirmacion" target="_blank"><img
-                                src="img/portfolio_img/reserva_confirmada_casaalpina.png" alt="plantilla reserva"
-                                loading="lazy"></a>
+                        <a href="https://elgela.github.io/confirmacion" target="_blank">
+                            <picture>
+                                <source srcset="img/portfolio_img/reserva_confirmada_casaalpina.png" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/reserva_confirmada_casaalpina.png" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/reserva_confirmada_casaalpina.png" alt="plantilla reserva" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                     <p>tocar imagen para ver</p>
                     <div class="portfolio-text">
                         <h3>Plantilla reserva casaalpina</h3>
-                        <!-- <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a> -->
                     </div>
                 </div>
             </div>
@@ -102,14 +119,17 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-5 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="portfolio-wrap">
                     <div class="portfolio-img">
-                        <a href="https://elgela.github.io/checkin" target="_blank"><img
-                                src="img/portfolio_img/checkin_casaalpina.png" alt="plantilla checkin"
-                                loading="lazy"></a>
+                        <a href="https://elgela.github.io/checkin" target="_blank">
+                            <picture>
+                                <source srcset="img/portfolio_img/checkin_casaalpina.png" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/checkin_casaalpina.png" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/checkin_casaalpina.png" alt="plantilla checkin" loading="lazy">
+                            </picture>
+                        </a>
                     </div>
                     <p>tocar imagen para ver</p>
                     <div class="portfolio-text">
                         <h3>Plantilla checkin casaalpina</h3>
-                        <!-- <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a> -->
                     </div>
                 </div>
             </div>
