@@ -1028,7 +1028,7 @@ a.btn {
     width: 100%;
 }
 
-.portfolio .portfolio-img {
+/* .portfolio .portfolio-img {
     position: relative;
     overflow: hidden;
 }
@@ -1039,13 +1039,28 @@ a.btn {
     height: auto;
     display: block;
     object-fit: contain;
-    /* transform: scale(1.1); */
+    transform: scale(1.1);
     transition: .5s;
 }
 
 .portfolio .portfolio-item:hover img {
     transform: scale(1.05);
+} */
+
+.portfolio-img picture,
+.portfolio-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 1 / 1; /* cuadrado */
+  object-fit: cover;
 }
+
+.portfolio-text img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 .portfolio .portfolio-text {
     position: relative;
