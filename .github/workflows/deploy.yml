@@ -15,7 +15,7 @@ jobs:
       - name: SFTP Deploy
         uses: appleboy/scp-action@v0.1.7
         with:
-          host: l0013822.ferozo.com       # tu host SFTP
+          host: l0013822.ferozo.com       # host SFTP
           username: ${{ secrets.FTP_USER }} # usuario SFTP
           password: ${{ secrets.FTP_PASS }} # contraseña SFTP
           port: 22
