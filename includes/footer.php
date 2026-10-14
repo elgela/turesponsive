@@ -39,7 +39,7 @@
 
 <!-- Threads button -->
 <a href="https://www.threads.com/@turesponsive" target="_blank" title="Threads"><img
-        src="img/logos/threads-logo-white.png" alt="logo de threads" class="fa-threads"></a>
+        src="img/logos/threads-logo-white.webp" alt="logo de threads" class="fa-threads"></a>
 
 <!-- Instagram button -->
 <a href="https://www.instagram.com/turesponsive/" target="_blank" title="Instagram"><i
