@@ -27,9 +27,9 @@
                     <div class="portfolio-img">
                         <a href="https://elgela.github.io/entreagujasytelares/" target="_blank">
                             <picture>
-                                <source srcset="img/portfolio_img/entreAgujaYtelares.png" media="(max-width: 600px)">
-                                <source srcset="img/portfolio_img/entreAgujaYtelares.png" media="(max-width: 1200px)">
-                                <img src="img/portfolio_img/entreAgujaYtelares.png" alt="imagen de pagina EAyT" loading="lazy">
+                                <source srcset="img/portfolio_img/entreAgujaYtelares.webp" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/entreAgujaYtelares.webp" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/entreAgujaYtelares.webp" alt="imagen de pagina EAyT" loading="lazy">
                             </picture>
                         </a>   
                     </div>
@@ -46,16 +46,16 @@
                     <div class="portfolio-img">
                         <a href="https://elgela.github.io/vuelta_y_vuelta/index.html" target="_blank">
                             <picture>
-                                <source srcset="img/portfolio_img/velta&vuelta.png" media="(max-width: 600px)">
-                                <source srcset="img/portfolio_img/velta&vuelta.png" media="(max-width: 1200px)">
-                                <img src="img/portfolio_img/velta&vuelta.png" alt="imagen de vuelta y vuelta" loading="lazy">
+                                <source srcset="img/portfolio_img/velta&vuelta.webp" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/velta&vuelta.webp" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/velta&vuelta.webp" alt="imagen de vuelta y vuelta" loading="lazy">
                             </picture>
                         </a>
                     </div>
                     <p>tocar imagen para entrar</p>
                     <div class="portfolio-text">
                         <h3>Vuelta&Vuelta Restaurant</h3>
-                        <img src="img/VyV-logo.webp" alt="imagen de página de vuelta y vuelta">
+                        <img src="img/VyV-logo.webp" alt="logo de vuelta y vuelta">
                     </div>
                 </div>
             </div>
@@ -65,16 +65,16 @@
                     <div class="portfolio-img">
                         <a href="https://www.casaalpina.com.ar/" target="_blank">
                             <picture>
-                                <source srcset="img/portfolio_img/casaalpina.png" media="(max-width: 600px)">
-                                <source srcset="img/portfolio_img/casaalpina.png" media="(max-width: 1200px)">
-                                <img src="img/portfolio_img/casaalpina.png" alt="imagen de casaalpina" loading="lazy">
+                                <source srcset="img/portfolio_img/casaalpina.webp" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/casaalpina.webp" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/casaalpina.webp" alt="imagen de casaalpina" loading="lazy">
                             </picture>
                         </a>
                     </div>
                     <p>tocar imagen para entrar</p>
                     <div class="portfolio-text">
                         <h3>Cabañas CasaAlpina</h3>
-                        <img src="img/casaalpina-solo_logoJPG.jpg" alt="qr de página de casaalpina">
+                        <img src="img/casaalpina-solo_logoJPG.jpg" alt="logo de página de casaalpina">
                     </div>
                 </div>
             </div>
@@ -84,16 +84,16 @@
                     <div class="portfolio-img">
                         <a href="https://elgela.github.io/tiendasPP/" target="_blank">
                             <picture>
-                                <source srcset="img/portfolio_img/tiendasPP.png" media="(max-width: 600px)">
-                                <source srcset="img/portfolio_img/tiendasPP.png" media="(max-width: 1200px)">
-                                <img src="img/portfolio_img/tiendasPP.png" alt="imagen de tiendas PP" loading="lazy">
+                                <source srcset="img/portfolio_img/tiendasPP.webp" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/tiendasPP.webp" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/tiendasPP.webp" alt="imagen de tiendas PP" loading="lazy">
                             </picture>
                         </a>
                     </div>
                     <p>tocar imagen para entrar</p>
                     <div class="portfolio-text">
                         <h3>TiendasPP Mercado&Bazar</h3>
-                        <img src="img/tiendasPP-logo.webp" alt="qr de página de tiendas PP">
+                        <img src="img/tiendasPP-logo.webp" alt="logo de tiendas PP">
                     </div>
                 </div>
             </div>
@@ -103,9 +103,9 @@
                     <div class="portfolio-img">
                         <a href="https://elgela.github.io/confirmacion" target="_blank">
                             <picture>
-                                <source srcset="img/portfolio_img/reserva_confirmada_casaalpina.png" media="(max-width: 600px)">
-                                <source srcset="img/portfolio_img/reserva_confirmada_casaalpina.png" media="(max-width: 1200px)">
-                                <img src="img/portfolio_img/reserva_confirmada_casaalpina.png" alt="plantilla reserva" loading="lazy">
+                                <source srcset="img/portfolio_img/reserva_confirmada_casaalpina.webp" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/reserva_confirmada_casaalpina.webp" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/reserva_confirmada_casaalpina.webp" alt="imagen plantilla reserva" loading="lazy">
                             </picture>
                         </a>
                     </div>
@@ -121,9 +121,9 @@
                     <div class="portfolio-img">
                         <a href="https://elgela.github.io/checkin" target="_blank">
                             <picture>
-                                <source srcset="img/portfolio_img/checkin_casaalpina.png" media="(max-width: 600px)">
-                                <source srcset="img/portfolio_img/checkin_casaalpina.png" media="(max-width: 1200px)">
-                                <img src="img/portfolio_img/checkin_casaalpina.png" alt="plantilla checkin" loading="lazy">
+                                <source srcset="img/portfolio_img/checkin_casaalpina.webp" media="(max-width: 600px)">
+                                <source srcset="img/portfolio_img/checkin_casaalpina.webp" media="(max-width: 1200px)">
+                                <img src="img/portfolio_img/checkin_casaalpina.webp" alt="imagen plantilla checkin" loading="lazy">
                             </picture>
                         </a>
                     </div>
