@@ -14,7 +14,7 @@
     <link rel="canonical" href="https://turesponsive.com.ar/" />
 
     <!-- Favicon -->
-    <link href="img/logos/logo_circ.png" rel="icon">
+    <link href="img/logos/logo_circ.webp" rel="icon">
 
     <!-- Google Font -->
     <link rel="stylesheet" href="cdnjs.cloudflare.com">
@@ -53,7 +53,7 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
-                <a href="index.php" class="navbar-brand">turesponsive<img src="img/logos/logo_circ.png"
+                <a href="index.php" class="navbar-brand">turesponsive<img src="img/logos/logo_circ.webp"
                         alt="logo turesponsive" class="logo_himno"></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-label="Menú">
