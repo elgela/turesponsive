@@ -1,22 +1,24 @@
-name: Deploy to DonWeb
+name: Deploy to DonWeb (SFTP)
+
 on:
   push:
     branches:
-      - main   # o el branch que uses
+      - main
+
 jobs:
-  ftp-deploy:
+  sftp-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v2
-      - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+
+      - name: SFTP Deploy
+        uses: appleboy/scp-action@v0.1.7
         with:
-          server: l0013822.ferozo.com
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASS }}
-          server-dir: /public_html/
-          local-dir: ./
-          protocol: ftps
-          port: 21
-          log-level: verbose
+          host: l0013822.ferozo.com       # tu host SFTP
+          username: ${{ secrets.FTP_USER }} # usuario SFTP
+          password: ${{ secrets.FTP_PASS }} # contraseña SFTP
+          port: 22
+          source: "./"                   # carpeta local del repo
+          target: "/public_html/"        # carpeta en el servidor
+
