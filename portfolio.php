@@ -197,7 +197,7 @@
             <div class="testimonial-item">
                 <div class="testimonial-img">
                     <a href="https://elgela.github.io/entreagujasytelares/" target="_blank"
-                        title="Tocar para entrar" style="display: contents;"><img src="img/EAyT_logo-circ.png"
+                        title="Tocar para entrar" style="display: contents;"><img src="img/EAyT_logo-circ.webp"
                             alt="logo de entre agujas y telares" loading="lazy"></a>
                 </div>
                 <div class="testimonial-text">
@@ -212,7 +212,7 @@
             <div class="testimonial-item">
                 <div class="testimonial-img">
                     <a href="https://www.casaalpina.com.ar/" target="_blank" title="Tocar para entrar"
-                        style="display: contents;"><img src="img/casaalpinaLogo.jpg" alt="logo de casaalpina"
+                        style="display: contents;"><img src="img/casaalpinaLogo.webp" alt="logo de casaalpina"
                             loading="lazy"></a>
                 </div>
                 <div class="testimonial-text">
