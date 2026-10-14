@@ -13,7 +13,7 @@
                     <div class="timeline-date">2022</div>
                     <h2>#SeProgramar</h2>
                     <h4>Argentina Programa 4.0</h4>
-                    <img class="miImagen" src="img/certificadoSeProgramar2022.png" alt="certificado de seProgramar"
+                    <img class="miImagen" src="img/certificadoSeProgramar2022.webp" alt="certificado de seProgramar"
                         loading="lazy">
                     <p>
                         1era Etapa del curso #SeProgramar del trayecto formativo INTI en el marco de Argentina
@@ -26,7 +26,7 @@
                     <div class="timeline-date">2023</div>
                     <h2>Primeros pasos desarrollo Frontend</h2>
                     <h4>Argentina Programa 4.0</h4>
-                    <img class="miImagen" src="img/desarrrolloFrontend2023.png"
+                    <img class="miImagen" src="img/desarrrolloFrontend2023.webp"
                         alt="certificado desarrollo frontend" loading="lazy">
                     <p>
                         Curso de Primeros pasos del desarrollo frontend en el marco de Argentina Programa 4.0
@@ -38,7 +38,7 @@
                     <div class="timeline-date">2025</div>
                     <h2>WordPress</h2>
                     <h4>Coderhouse</h4>
-                    <img class="miImagen" src="img/CertificadoWordPress2025.png" alt="certificado de WordPress"
+                    <img class="miImagen" src="img/CertificadoWordPress2025.webp" alt="certificado de WordPress"
                         loading="lazy">
                     <p>
                         Curso completo de 20 horas dictadas a lo largo de 5 semanas sobre desarrollo a través de
@@ -51,7 +51,7 @@
                     <div class="timeline-date">Cursando</div>
                     <h2>TUDAI</h2>
                     <h4>UNICEN, Tandil, Bs As</h4>
-                    <img class="miImagen" src="img/constancia_alumno_regular.png"
+                    <img class="miImagen" src="img/constancia_alumno_regular.webp"
                         alt="constancia de alumno regular unicen" loading="lazy">
                     <p>
                         Cursando Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas (TUDAI)
