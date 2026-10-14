@@ -196,10 +196,10 @@ a.btn {
     background: #ffffff !important;
 }
 
-.navbar .logo_himno {
+/* .navbar .logo_himno {
     position: relative;
     width: 5rem;
-}
+} */
 
 .navbar.nav-sticky {
     position: fixed;
