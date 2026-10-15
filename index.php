@@ -117,7 +117,7 @@
                         </div>
                         <div class="hero-btn">
                             <!-- <a class="btn" href="#contact">Contratame</a> -->
-                            <a class="btn" href="#contact">Contactame</a>
+                            <a class="btn" href="contacto.php">Contactame</a>
                         </div>
                     </div>
                 </div>
