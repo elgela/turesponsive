@@ -66,7 +66,7 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.php" class="nav-item nav-link active">Hola3Inicio</a>
+                        <a href="index.php" class="nav-item nav-link active">Inicio</a>
                         <!-- <a href="#about" class="nav-item nav-link">Sobre mi</a>
                         <a href="#service" class="nav-item nav-link">Servicios</a> -->
                         <a href="experiencia.php" class="nav-item nav-link">Experiencia</a>

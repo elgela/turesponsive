@@ -72,7 +72,7 @@
                         <a href="blog.php" class="nav-item nav-link">Blog</a>
                         <a href="contacto.php" class="nav-item nav-link">Contacto</a>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
         <!-- Nav Bar End -->
