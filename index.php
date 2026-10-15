@@ -64,19 +64,22 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <?php
+                $current = basename($_SERVER['PHP_SELF']);
+                ?>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.php" class="nav-item nav-link active">Inicio</a>
+                        <a href="index.php" class="nav-item nav-link <?= $current == 'index.php' ? 'active' : '' ?>">Inicio</a>
                         <!-- <a href="#about" class="nav-item nav-link">Sobre mi</a>
                         <a href="#service" class="nav-item nav-link">Servicios</a> -->
-                        <a href="experiencia.php" class="nav-item nav-link">Experiencia</a>
-                        <a href="portfolio.php" class="nav-item nav-link">Portfolio</a>
+                        <a href="experiencia.php" class="nav-item nav-link <?= $current == 'experiencia.php' ? 'active' : '' ?>">Experiencia</a>
+                        <a href="portfolio.php" class="nav-item nav-link <?= $current == 'portfolio.php' ? 'active' : '' ?>">Portfolio</a>
                         <!-- <a href="#review" class="nav-item nav-link">Reseñas</a>
                         <a href="#plans" class="nav-item nav-link">Planes</a> -->
-                        <a href="blog.php" class="nav-item nav-link">Blog</a>
-                        <a href="contacto.php" class="nav-item nav-link">Contacto</a>
+                        <a href="blog.php" class="nav-item nav-link <?= $current == 'blog.php' ? 'active' : '' ?>">Blog</a>
+                        <a href="contacto.php" class="nav-item nav-link <?= $current == 'contacto.php' ? 'active' : '' ?>">Contacto</a>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
         <!-- Nav Bar End -->
@@ -117,7 +120,7 @@
                         </div>
                         <div class="hero-btn">
                             <!-- <a class="btn" href="#contact">Contratame</a> -->
-                            <a class="btn" href="#contact">Contactame</a>
+                            <a class="btn" href="contacto.php">Contactame</a>
                         </div>
                     </div>
                 </div>
