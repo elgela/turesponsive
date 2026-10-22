@@ -29,3 +29,7 @@ RewriteRule ^(.*)$ https://turesponsive.com.ar/$1 [L,R=301]
     Header set Cache-Control "public"
   </FilesMatch>
 </IfModule>
+
+# Redirección .html a .php
+Redirect 301 /index.html /index.php
+Redirect 301 /responsiveWeb.html /responsiveWeb.php
