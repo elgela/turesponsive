@@ -1,3 +1,4 @@
+<?php require_once 'functions.php'; ?>
 <!DOCTYPE html>
 <html lang="es-AR">
 
@@ -33,11 +34,15 @@
 
 
     <!-- Template Stylesheet -->
-    <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="css/style.css">
-    </noscript>
+    <link rel="preload"
+        href="<?php echo versionado('css/style.css'); ?>"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
 
+    <noscript>
+        <link rel="stylesheet" href="<?php echo versionado('css/style.css'); ?>">
+    </noscript>
+    
     <!-- Manifest.json -->
     <link rel="manifest" href="/manifest.json">
 
@@ -75,9 +80,9 @@
                         <a href="blog.php" class="nav-item nav-link <?= $current == 'blog.php' ? 'active' : '' ?>">Blog</a>
                         <a href="contacto.php" class="nav-item nav-link <?= $current == 'contacto.php' ? 'active' : '' ?>">Contacto</a>
                     </div>
-                </div>  
+                </div>
             </div>
         </div>
         <!-- Nav Bar End -->
-         <div class="hero"></div>
+        <div class="hero"></div>
     </header>
