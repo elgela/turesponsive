@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Diseño Web en Tandil - turesponsive</title>
+    <title>Diseño Web en Tandil - TuResponsive</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="description" content="TuResponsive ofrece diseño y desarrollo de páginas web modernas, responsivas y optimizadas para SEO. Creamos sitios web profesionales en Tandil y Argentina.">
     <meta name="keywords" content="creación de sitios web, desarrollo páginas web, diseño web Tandil, sitios responsivos, SEO Argentina">
@@ -18,11 +18,11 @@
     <link href="img/logos/logo_circ.webp" rel="icon">
 
     <!-- Google Font -->
-    <link rel="stylesheet" href="cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
 
     <!-- Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
 
     <!-- CSS Libraries -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
 
     <link rel="preload" href="img/conAbby.webp" as="image" imagesrcset="img/conAbby.webp 158w,
                                     img/conAbby.webp 300w,
-                                    img/cnAbby.webp 492w" imagesizes="(max-width: 600px) 400px
+                                    img/conAbby.webp 492w" imagesizes="(max-width: 600px) 400px
                                     (max-width: 1200px) 800px">
 
 </head>
@@ -58,7 +58,7 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
-                <a href="index.php" class="navbar-brand">turesponsive<img src="img/logos/logo_circ.webp"
+                <a href="index.php" class="navbar-brand">TuResponsive<img src="img/logos/logo_circ.webp"
                         alt="logo turesponsive" class="logo_himno"></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-label="Menú">
