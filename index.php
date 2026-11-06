@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Diseño Web en Tandil - turesponsive</title>
+    <title>TuResponsive - Diseño Web en Tandil</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Creación de sitios web en Tandil | TuResponsive</title>
     <meta name="description" content="TuResponsive ofrece diseño y desarrollo de páginas web modernas, responsivas y optimizadas para SEO. Creamos sitios web profesionales en Tandil y Argentina.">
