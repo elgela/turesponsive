@@ -44,7 +44,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="portfolio-wrap">
                     <div class="portfolio-img">
-                        <a href="https://elgela.github.io/vuelta_y_vuelta/index.html" target="_blank">
+                        <a href="https://vueltayvuelta.turesponsive.com.ar/" target="_blank">
                             <picture>
                                 <source srcset="img/portfolio_img/velta&vuelta.webp" media="(max-width: 600px)">
                                 <source srcset="img/portfolio_img/velta&vuelta.webp" media="(max-width: 1200px)">
