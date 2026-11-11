@@ -59,7 +59,7 @@
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
                 <a href="index.php" class="navbar-brand">TuResponsive<img src="img/logos/logo_circ.webp"
-                        alt="logo turesponsive" class="logo_himno"></a>
+                        alt="logo TuResponsive" class="logo_himno"></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-label="Menú">
                     <span class="navbar-toggler-icon"></span>

@@ -2,7 +2,7 @@
     {
         "imagen": "https://www.axiomacero.com/blog/wp-content/uploads/2021/10/Disen%CC%83o-web-Responsive.jpg",
         "titulo": "La importancia de un diseño responsive en tu web",
-        "autor": "turesponsive",
+        "autor": "TuResponsive",
         "tema": "Páginas Web",
         "fecha": "18 Mayo 2026",
         "contenido": "El diseño web responsivo revolucionó la forma en que navegamos Internet, permitiendo que una misma página se adapte automáticamente a cualquier dispositivo —desde computadoras hasta celulares—. Nació en 2010 con Ethan Marcotte y hoy es un estándar esencial para la experiencia digital moderna.",
@@ -11,7 +11,7 @@
     {
         "imagen": "img/importancia_paginas.webp",
         "titulo": "Importancia de páginas web",
-        "autor": "turesponsive",
+        "autor": "TuResponsive",
         "tema": "Páginas Web",
         "fecha": "7 Mayo 2026",
         "contenido": "Tener una página web propia en 2026 es fundamental para cualquier negocio, ya que funciona como un escaparate 24/7 que otorga credibilidad, profesionalismo y mayor visibilidad, superando las limitaciones de depender solo de redes sociales. Permite controlar la narrativa de la marca, alcanzar una audiencia global, vender productos directamente y recopilar datos propios para estrategias de marketing.",
@@ -38,7 +38,7 @@
     {
         "imagen": "https://panel.nubulus.es/Webs/nubulus.cat/Files/image/ACtualitat/como-empezar-SEO.jpg",
         "titulo": "¿Qué es SEO?",
-        "autor": "turesponsive",
+        "autor": "TuResponsive",
         "tema": "Marketing Digital",
         "fecha": "4 Enero 2026",
         "contenido": "SEO (Search Engine Optimization) es la práctica de optimizar un sitio web para que aparezca en los primeros resultados de buscadores como Google. Es importante porque aumenta la visibilidad, atrae tráfico orgánico de calidad y puede marcar la diferencia entre que un negocio sea encontrado o pase desapercibido.",
@@ -47,7 +47,7 @@
     {
         "imagen": "https://inesdi-cdn.s3.eu-west-3.amazonaws.com/inesdi-prod/2023-09/que-es-y-como-crear-una-pwa-o-progressive-web-app.jpeg",
         "titulo": "Pasos para instalar una página como aplicación",
-        "autor": "turesponsive",
+        "autor": "TuResponsive",
         "tema": "Apps Design",
         "fecha": "3 Enero 2026",
         "contenido": "Para instalar una página web como aplicación, usa la función 'Instalar' de tu navegador (como Chrome o Edge) para sitios que sean Progressive Web Apps (PWA), abriendo la web, yendo al menú (tres puntos) y buscando la opción 'Instalar sitio como aplicación' o 'Crear acceso directo'; esto crea un icono que se abre en su propia ventana sin las barras del navegador, ofreciendo una experiencia similar a una app nativa en Windows, Mac, Linux y Android.",
@@ -65,7 +65,7 @@
     {
         "imagen": "https://blog.neothek.com/wp-content/uploads/2016/12/consejos_dis_web.jpg",
         "titulo": "Consejos de diseño web para 2026",
-        "autor": "turesponsive",
+        "autor": "TuResponsive",
         "tema": "Web Design",
         "fecha": "19 Diciembre 2025",
         "contenido": "Para un buen diseño web, prioriza la velocidad de carga, el diseño responsivo (adaptable a móviles) y una navegación intuitiva con menús claros y CTAs destacados, usando tipografía legible y espacios en blanco, mientras mantienes la coherencia visual y la accesibilidad para todos los usuarios, incluyendo buen contraste de color y etiquetas alt para imágenes, enfocado siempre en la experiencia del usuario y tu marca.",
@@ -74,7 +74,7 @@
     {
         "imagen": "https://www.webfx.com/wp-content/uploads/2021/10/iStock-612224522.jpg",
         "titulo": "¿Que es una web responsive?",
-        "autor": "turesponsive",
+        "autor": "TuResponsive",
         "tema": "Web Design",
         "fecha": "18 Diciembre 2025",
         "contenido": "Una web responsive es un sitio que se adapta automáticamente al tamaño y características de la pantalla del dispositivo en el que se visualiza, garantizando una experiencia óptima tanto en computadoras, tablets como en móviles.",

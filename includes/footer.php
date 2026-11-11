@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="container copyright">
-            <p>Webmaster: <a href="https://www.turesponsive.com.ar" target="_blank">turesponsive <img
+            <p>Webmaster: <a href="https://www.turesponsive.com.ar" target="_blank">TuResponsive <img
                         src="img/logos/logo_circ.webp" alt="logo con copa mundial"></a>
                 |
                 Development: <a href="https://htmlcodex.com" target="_blank">HTML Codex</a>
