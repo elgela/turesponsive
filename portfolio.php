@@ -25,7 +25,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
                 <div class="portfolio-wrap">
                     <div class="portfolio-img">
-                        <a href="https://elgela.github.io/entreagujasytelares/" target="_blank">
+                        <a href="https://eayt.turesponsive.com.ar/" target="_blank">
                             <picture>
                                 <source srcset="img/portfolio_img/entreAgujaYtelares.webp" media="(max-width: 600px)">
                                 <source srcset="img/portfolio_img/entreAgujaYtelares.webp" media="(max-width: 1200px)">
