@@ -51,6 +51,13 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
 
+    <div id="splash-screen">
+        <div class="splash-content">
+            <img src="img/logos/logo_circ.webp" alt="logo TuResponsive">
+            <h1>TuResponsive</h1>
+            <p>Diseño Web Profesional</p>
+        </div>
+    </div>
 
     <header>
         <!-- Nav Bar Start -->
