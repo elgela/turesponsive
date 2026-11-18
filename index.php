@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="description" content="TuResponsive ofrece diseño y desarrollo de páginas web modernas, responsivas y optimizadas para SEO. Creamos sitios web profesionales en Tandil y Argentina.">
     <meta name="keywords" content="creación de sitios web, desarrollo páginas web, diseño web Tandil, sitios responsivos, SEO Argentina">
-    
+
     <!-- Verifica propiedad -->
     <meta name="google-site-verification" content="AsBqJ3EtVBvVyg7XbPRC3I4VJ5T6r6rAq83kPl4vtw8" />
 
@@ -85,7 +85,7 @@
                         <a href="blog.php" class="nav-item nav-link <?= $current == 'blog.php' ? 'active' : '' ?>">Blog</a>
                         <a href="contacto.php" class="nav-item nav-link <?= $current == 'contacto.php' ? 'active' : '' ?>">Contacto</a>
                     </div>
-                </div>  
+                </div>
             </div>
         </div>
         <!-- Nav Bar End -->
@@ -311,6 +311,36 @@
     </div>
     <!-- Service End -->
 
+    <!-- Splash Start -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const splash = document.getElementById("splash-screen");
+
+            if (sessionStorage.getItem("splashMostrado")) {
+                splash.remove();
+                return;
+            }
+
+            sessionStorage.setItem("splashMostrado", "true");
+
+            window.addEventListener("load", () => {
+
+                setTimeout(() => {
+
+                    splash.classList.add("splash-hidden");
+
+                    setTimeout(() => {
+                        splash.remove();
+                    }, 600);
+
+                }, 1800);
+
+            });
+
+        });
+    </script>
+    <!-- Splash End -->
 
 
 
