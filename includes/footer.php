@@ -78,6 +78,23 @@
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
 
+<script>
+    window.addEventListener('load', () => {
+
+        setTimeout(() => {
+
+            const splash = document.getElementById('splash-screen');
+
+            splash.classList.add('splash-hidden');
+
+            setTimeout(() => {
+                splash.remove();
+            }, 600);
+
+        }, 1800);
+
+    });
+</script>
 </body>
 
 </html>
