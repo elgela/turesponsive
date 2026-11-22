@@ -16,7 +16,7 @@
     <meta name="google-site-verification" content="AsBqJ3EtVBvVyg7XbPRC3I4VJ5T6r6rAq83kPl4vtw8" />
 
     <!-- Etiqueta canónica -->
-    <link rel="canonical" href="https://turesponsive.com.ar" />
+    <link rel="canonical" href="https://turesponsive.com.ar/" />
 
     <!-- Favicon -->
     <link href="img/logos/logo_circ.webp" rel="icon">
@@ -34,7 +34,7 @@
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </noscript>
-    
+
     <!-- CSS Libraries -->
     <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="preload"
