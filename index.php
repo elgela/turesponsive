@@ -8,6 +8,10 @@
     <meta name="description" content="TuResponsive ofrece diseño y desarrollo de páginas web modernas, responsivas y optimizadas para SEO. Creamos sitios web profesionales en Tandil y Argentina.">
     <meta name="keywords" content="creación de sitios web, desarrollo páginas web, diseño web Tandil, sitios responsivos, SEO Argentina">
 
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
+
     <!-- Verifica propiedad -->
     <meta name="google-site-verification" content="AsBqJ3EtVBvVyg7XbPRC3I4VJ5T6r6rAq83kPl4vtw8" />
 
@@ -21,15 +25,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
 
     <!-- Iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="preload"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
 
+    <noscript>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </noscript>
+    
     <!-- CSS Libraries -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="preload"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+
+    <noscript>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    </noscript>
+
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> -->
+    <link rel="preload"
+        href="lib/animate/animate.min.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+
+    <noscript>
+        <link rel="stylesheet" href="lib/animate/animate.min.css">
+    </noscript>
+    <!-- <link href="lib/animate/animate.min.css" rel="stylesheet"> -->
+
+    <!-- OwlCarousel -->
+    <link rel="preload"
+        href="lib/owlcarousel/assets/owl.carousel.min.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <!-- <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> -->
+
+    <link rel="preload"
+        href="lib/lightbox/css/lightbox.min.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
 
